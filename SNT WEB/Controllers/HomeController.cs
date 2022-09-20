@@ -19,7 +19,7 @@ namespace SNT_WEB.Controllers
 
         public IActionResult Contacts()
         {
-            return View(dataManager.TextField.GetTextFieldCodeWord("Contacts"));
+            return View(dataManager.TextField.GetTextFieldCodeWord("PageContacts"));
         }
     }
 }
